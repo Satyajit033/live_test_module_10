@@ -29,7 +29,7 @@ class _MyHomeState extends State<MyHome> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News Feed'),
+         title:  Text('News Feed'),
       ),
       body: OrientationBuilder(
         builder: (context, orientation) {
@@ -58,119 +58,141 @@ class _MyHomeState extends State<MyHome> {
                                   Container(
                                     child:Center(
                                       child: Container(
-                                        height: 180,
-                                        width: 180,
-                                        child: Align(
-                                          alignment: Alignment.center,
-                                          child: Text(
-                                            '150*150',
-                                            textAlign: TextAlign.center,
+                                        child: Center(
+                                          child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Icon(Icons.shopping_cart),
+                                              SizedBox(height: 5,),
+                                              Text("Orders"),
+                                              SizedBox(height: 5,),
+                                              Text("567"),
+                                            ],
                                           ),
                                         ),
-                                        color: Colors.white54,
+                                        height: 150,
+                                        width: 150,
                                       ),
                                     ),
-                                    color: Colors.blueGrey,
+                                    color: Colors.black26,
                                     height: 120,
                                     width: 120,
                                   ),
                                   Container(
                                     child:Center(
                                       child: Container(
-                                        height: 180,
-                                        width: 180,
-                                        child: Align(
-                                          alignment: Alignment.center,
-                                          child: Text(
-                                            '150*150',
-                                            textAlign: TextAlign.center,
+                                        child: Center(
+                                          child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Icon(Icons.shopping_cart),
+                                              SizedBox(height: 5,),
+                                              Text("Orders"),
+                                              SizedBox(height: 5,),
+                                              Text("567"),
+                                            ],
                                           ),
                                         ),
-                                        color: Colors.white54,
+                                        height: 150,
+                                        width: 150,
                                       ),
                                     ),
-                                    color: Colors.blueGrey,
+                                    color: Colors.black26,
                                     height: 120,
                                     width: 120,
                                   ),
                                   Container(
                                     child:Center(
                                       child: Container(
-                                        height: 180,
-                                        width: 180,
-                                        child: Align(
-                                          alignment: Alignment.center,
-                                          child: Text(
-                                            '150*150',
-                                            textAlign: TextAlign.center,
+                                        child: Center(
+                                          child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Icon(Icons.shopping_cart),
+                                              SizedBox(height: 5,),
+                                              Text("Orders"),
+                                              SizedBox(height: 5,),
+                                              Text("567"),
+                                            ],
                                           ),
                                         ),
-                                        color: Colors.white54,
+                                        height: 150,
+                                        width: 150,
                                       ),
                                     ),
-                                    color: Colors.blueGrey,
+                                    color: Colors.black26,
                                     height: 120,
                                     width: 120,
                                   ),
                                   Container(
                                     child:Center(
                                       child: Container(
-                                        height: 180,
-                                        width: 180,
-                                        child: Align(
-                                          alignment: Alignment.center,
-                                          child: Text(
-                                            '150*150',
-                                            textAlign: TextAlign.center,
+                                        child: Center(
+                                          child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Icon(Icons.shopping_cart),
+                                              SizedBox(height: 5,),
+                                              Text("Orders"),
+                                              SizedBox(height: 5,),
+                                              Text("567"),
+                                            ],
                                           ),
                                         ),
-                                        color: Colors.white54,
+                                        height: 150,
+                                        width: 150,
                                       ),
                                     ),
-                                    color: Colors.blueGrey,
+                                    color: Colors.black26,
                                     height: 120,
                                     width: 120,
                                   ),
                                   Container(
                                     child:Center(
                                       child: Container(
-                                        height: 180,
-                                        width: 180,
-                                        child: Align(
-                                          alignment: Alignment.center,
-                                          child: Text(
-                                            '150*150',
-                                            textAlign: TextAlign.center,
+                                        child: Center(
+                                          child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Icon(Icons.shopping_cart),
+                                              SizedBox(height: 5,),
+                                              Text("Orders"),
+                                              SizedBox(height: 5,),
+                                              Text("567"),
+                                            ],
                                           ),
                                         ),
-                                        color: Colors.white54,
+                                        height: 150,
+                                        width: 150,
                                       ),
                                     ),
-                                    color: Colors.blueGrey,
+                                    color: Colors.black26,
                                     height: 120,
                                     width: 120,
                                   ),
                                   Container(
                                     child:Center(
                                       child: Container(
-                                        height: 180,
-                                        width: 180,
-                                        child: Align(
-                                          alignment: Alignment.center,
-                                          child: Text(
-                                            '150*150',
-                                            textAlign: TextAlign.center,
+                                        child: Center(
+                                          child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Icon(Icons.shopping_cart),
+                                              SizedBox(height: 5,),
+                                              Text("Orders"),
+                                              SizedBox(height: 5,),
+                                              Text("567"),
+                                            ],
                                           ),
                                         ),
-                                        color: Colors.white54,
+                                        height: 150,
+                                        width: 150,
                                       ),
                                     ),
-                                    color: Colors.blueGrey,
+                                    color: Colors.black26,
                                     height: 120,
                                     width: 120,
                                   ),
-
-
                                 ])),
                       ],
                     ),
@@ -194,119 +216,141 @@ class _MyHomeState extends State<MyHome> {
                               Container(
                                 child:Center(
                                   child: Container(
-                                    height: 350,
-                                    width: 350,
-                                    child: Align(
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        '150*150',
-                                        textAlign: TextAlign.center,
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Icon(Icons.shopping_cart),
+                                          SizedBox(height: 5,),
+                                          Text("Orders"),
+                                          SizedBox(height: 5,),
+                                          Text("567"),
+                                        ],
                                       ),
                                     ),
-                                    color: Colors.white54,
+                                    height: 150,
+                                    width: 150,
                                   ),
                                 ),
-                                color: Colors.blueGrey,
+                                color: Colors.black26,
                                 height: 120,
                                 width: 120,
                               ),
                               Container(
                                 child:Center(
                                   child: Container(
-                                    height: 350,
-                                    width: 350,
-                                    child: Align(
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        '150*150',
-                                        textAlign: TextAlign.center,
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Icon(Icons.shopping_cart),
+                                          SizedBox(height: 5,),
+                                          Text("Orders"),
+                                          SizedBox(height: 5,),
+                                          Text("567"),
+                                        ],
                                       ),
                                     ),
-                                    color: Colors.white54,
+                                    height: 150,
+                                    width: 150,
                                   ),
                                 ),
-                                color: Colors.blueGrey,
+                                color: Colors.black26,
                                 height: 120,
                                 width: 120,
                               ),
                               Container(
                                 child:Center(
                                   child: Container(
-                                    height: 350,
-                                    width: 350,
-                                    child: Align(
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        '150*150',
-                                        textAlign: TextAlign.center,
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Icon(Icons.shopping_cart),
+                                          SizedBox(height: 5,),
+                                          Text("Orders"),
+                                          SizedBox(height: 5,),
+                                          Text("567"),
+                                        ],
                                       ),
                                     ),
-                                    color: Colors.white54,
+                                    height: 150,
+                                    width: 150,
                                   ),
                                 ),
-                                color: Colors.blueGrey,
+                                color: Colors.black26,
                                 height: 120,
                                 width: 120,
                               ),
                               Container(
                                 child:Center(
                                   child: Container(
-                                    height: 350,
-                                    width: 350,
-                                    child: Align(
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        '150*150',
-                                        textAlign: TextAlign.center,
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Icon(Icons.shopping_cart),
+                                          SizedBox(height: 5,),
+                                          Text("Orders"),
+                                          SizedBox(height: 5,),
+                                          Text("567"),
+                                        ],
                                       ),
                                     ),
-                                    color: Colors.white54,
+                                    height: 150,
+                                    width: 150,
                                   ),
                                 ),
-                                color: Colors.blueGrey,
+                                color: Colors.black26,
                                 height: 120,
                                 width: 120,
                               ),
                               Container(
                                 child:Center(
                                   child: Container(
-                                    height: 350,
-                                    width: 350,
-                                    child: Align(
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        '150*150',
-                                        textAlign: TextAlign.center,
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Icon(Icons.shopping_cart),
+                                          SizedBox(height: 5,),
+                                          Text("Orders"),
+                                          SizedBox(height: 5,),
+                                          Text("567"),
+                                        ],
                                       ),
                                     ),
-                                    color: Colors.white54,
+                                    height: 150,
+                                    width: 150,
                                   ),
                                 ),
-                                color: Colors.blueGrey,
+                                color: Colors.black26,
                                 height: 120,
                                 width: 120,
                               ),
                               Container(
                                 child:Center(
                                   child: Container(
-                                    height: 350,
-                                    width: 350,
-                                    child: Align(
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        '150*150',
-                                        textAlign: TextAlign.center,
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Icon(Icons.shopping_cart),
+                                          SizedBox(height: 5,),
+                                          Text("Orders"),
+                                          SizedBox(height: 5,),
+                                          Text("567"),
+                                        ],
                                       ),
                                     ),
-                                    color: Colors.white54,
+                                    height: 150,
+                                    width: 150,
                                   ),
                                 ),
-                                color: Colors.blueGrey,
+                                color: Colors.black26,
                                 height: 120,
                                 width: 120,
                               ),
-
-
                             ])),
                   ]),
             );
